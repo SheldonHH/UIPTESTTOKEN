@@ -1,12 +1,11 @@
 pragma solidity ^0.4.11;
 import './IERC20.sol';
 import './SafeMath.sol';
+
+
 /*
-Use SafeMath.sol to avoid overflow and underflow attack upon type "uint 256"
-
-使用SafeMath.sol 防止出现对type "uint256"的 overflow 和 underflow 攻击
+防止出现出现overflow 和  underflow attack
 */
-
 contract FuncToken is IERC20{
     
    using SafeMath for uint256; // overlaying safeMath on uint256
@@ -14,12 +13,14 @@ contract FuncToken is IERC20{
    //only bring token into existence when sb send eth
    uint public _totalSupply = 0; // change when more ppl send ether 
    
-   string public constant symbol = "UIP";
-   string public constant name = "Func Token";
+   string public constant symbol = "UIPTESTTOEKN";
+   string public constant name = "UIP Test Token";
    uint8 public constant decimals = 18; // one ether can be broken down to 18 decimal spaces
    
    // 1 ether = 500 Func
    uint256 public constant RATE = 500;
+   uint256 public constant UPPERLIMIT = 1000000000;
+   
    //add a wallet address
    address public owner;
    
