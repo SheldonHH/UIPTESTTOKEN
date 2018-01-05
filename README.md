@@ -4,7 +4,8 @@
 
 - 固定率 1ETH = 500 UIPTEST ，进行Crowdsales
 - 上限   一亿枚 100000000
-[具体参见：FuncToken.sol](https://github.com/SheldonHH/UIPTESTTOKEN/blob/9f1236e6d277d60613e8b8b88353b4f469146cf2/FuncToken.sol#L22)
+
+> [具体参见：FuncToken.sol](https://github.com/SheldonHH/UIPTESTTOKEN/blob/9f1236e6d277d60613e8b8b88353b4f469146cf2/FuncToken.sol#L22)
 
 
 
