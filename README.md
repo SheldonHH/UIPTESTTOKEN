@@ -13,5 +13,5 @@
 
 
 ## References
-[Zepplin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity/tree/0bcf0a20010027d061414d01a1081c971c5064a5)
-[EIPS](https://github.com/ethereum/EIPs/issues/20)
+- [Zepplin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity/tree/0bcf0a20010027d061414d01a1081c971c5064a5)
+- [EIPS](https://github.com/ethereum/EIPs/issues/20)
