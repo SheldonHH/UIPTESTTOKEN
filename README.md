@@ -1,3 +1,5 @@
+# UIPTESTTOKEN
+
 ## 发放标准
 
 - V1.0：按照固定率 1ETH = 500 UIPTEST ，进行Crowdsales
@@ -6,5 +8,10 @@
 
 
 
-## Crowd-sales 地址
+## Crowd-sales ETH地址
 [0x36ed7275639aAC8764146e76C4E01282C5d8aD4f](https://etherscan.io/address/0x36ed7275639aAC8764146e76C4E01282C5d8aD4f)
+
+
+## References
+[Zepplin-solidity](https://github.com/OpenZeppelin/zeppelin-solidity/tree/0bcf0a20010027d061414d01a1081c971c5064a5)
+[EIPS](https://github.com/ethereum/EIPs/issues/20)
