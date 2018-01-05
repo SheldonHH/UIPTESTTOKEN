@@ -1,11 +1,12 @@
 pragma solidity ^0.4.11;
 import './IERC20.sol';
 import './SafeMath.sol';
-
-
 /*
-防止出现出现overflow 和  underflow attack
+Use SafeMath.sol to avoid overflow and underflow attack upon type "uint 256"
+
+使用SafeMath.sol 防止出现对type "uint256"的 overflow 和 underflow 攻击
 */
+
 contract FuncToken is IERC20{
     
    using SafeMath for uint256; // overlaying safeMath on uint256

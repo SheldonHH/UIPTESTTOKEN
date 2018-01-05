@@ -2,7 +2,7 @@ pragma solidity ^0.4.18;
 
 
 /**
- * 来源
+ * 来源 Reference
  * https://github.com/OpenZeppelin/zeppelin-solidity/blob/0bcf0a20010027d061414d01a1081c971c5064a5/contracts/math/SafeMath.sol
  * @title SafeMath
  * @dev Math operations with safety checks that throw on error
